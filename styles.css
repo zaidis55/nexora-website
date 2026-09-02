@@ -4,7 +4,7 @@
    paper canvas, hairline grid, node-and-wire motifs.
    ============================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
 
 :root{
   --paper: #F7F5EF;
@@ -21,7 +21,7 @@
   --paper-on-dark: #EDEAE1;
   --radius-s: 3px;
 
-  --font-display: 'Fraunces', Georgia, serif;
+  --font-display: 'Space Grotesk', -apple-system, sans-serif;
   --font-body: 'IBM Plex Sans', -apple-system, sans-serif;
   --font-mono: 'IBM Plex Mono', 'SFMono-Regular', monospace;
 }
@@ -358,11 +358,12 @@ h1{
 }
 .quote{ border-top: 2px solid var(--ink); padding-top: 20px; }
 .quote p{
-  font-family: var(--font-display);
-  font-style: italic;
-  font-size: 18px;
-  line-height: 1.45;
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.55;
   margin: 0 0 20px;
+  color: var(--ink);
 }
 .quote-author{ font-family: var(--font-mono); font-size: 13px; color: var(--ink-soft); }
 .quote-author b{ color: var(--ink); font-style: normal; font-family: var(--font-body); font-weight:600; }
